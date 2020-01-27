@@ -1,0 +1,24 @@
+<!DOCTYPE.html>
+<html>
+        <script>
+            function validateform()
+            {
+                var x = document.forms["form1"]["fname"].value;
+                if(x=="")
+                {
+                    alert("Required input field.");
+                    return false;
+                }
+            }
+        </script>
+    <body>
+        <form name="form1" onsubmit="return validateform()" method ="post">
+        
+            Name: <input type="text" name ="fname">
+            <input type="submit" value="Submit"> 
+        </form>
+
+
+    </body>
+   
+</html>
