@@ -1,0 +1,9 @@
+#cover {
+    background: #222 url('C:\Users\Admin\Documents\webpages\images\img1.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
